@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-06 at 16:00 (GMT+3)-->
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-06 at 16:04 (GMT+3)-->
 <keyboard group="126" id="-25352" name="Deep Dvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -302,7 +302,7 @@
 			<key code="38" output=""/>
 			<key code="39" output=""/>
 			<key code="40" output=""/>
-			<key code="41" output=""/>
+			<key code="41" output="ş"/>
 			<key code="42" output=""/>
 			<key code="43" output=""/>
 			<key code="44" output=""/>
@@ -391,7 +391,7 @@
 			<key code="38" output=""/>
 			<key code="39" output=""/>
 			<key code="40" output=""/>
-			<key code="41" output=""/>
+			<key code="41" output="Ş"/>
 			<key code="42" output=""/>
 			<key code="43" output=""/>
 			<key code="44" output=""/>
