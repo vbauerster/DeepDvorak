@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-06 at 16:08 (GMT+3)-->
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-06 at 17:48 (GMT+3)-->
 <keyboard group="126" id="-25352" name="Deep Dvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -440,12 +440,12 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="4">
-			<key code="0" output="A"/>
-			<key code="1" output="O"/>
-			<key code="2" output="E"/>
-			<key code="3" output="U"/>
-			<key code="4" output="D"/>
-			<key code="5" output="I"/>
+			<key code="0" output="7"/>
+			<key code="1" output="5"/>
+			<key code="2" output="3"/>
+			<key code="3" output="1"/>
+			<key code="4" output="0"/>
+			<key code="5" output="9"/>
 			<key code="6" output="&#x0027;"/>
 			<key code="7" output="Q"/>
 			<key code="8" output="J"/>
@@ -476,11 +476,11 @@
 			<key code="34" output="C"/>
 			<key code="35" output="L"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="N"/>
-			<key code="38" output="H"/>
+			<key code="37" output="6"/>
+			<key code="38" output="2"/>
 			<key code="39" output="-"/>
-			<key code="40" output="T"/>
-			<key code="41" output="S"/>
+			<key code="40" output="4"/>
+			<key code="41" output="8"/>
 			<key code="42" output="\"/>
 			<key code="43" output="W"/>
 			<key code="44" output="Z"/>
