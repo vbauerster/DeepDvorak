@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-06 at 07:29 (GMT+3)-->
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-06 at 08:15 (GMT+3)-->
 <keyboard group="126" id="-10045" name="Deep Dvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -58,12 +58,12 @@
 			<key code="3" output="u"/>
 			<key code="4" output="d"/>
 			<key code="5" output="i"/>
-			<key code="6" output=";"/>
+			<key code="6" output="&#x0027;"/>
 			<key code="7" output="q"/>
 			<key code="8" output="j"/>
 			<key code="9" output="k"/>
 			<key code="11" output="x"/>
-			<key code="12" output="&#x0027;"/>
+			<key code="12" output=";"/>
 			<key code="13" output=","/>
 			<key code="14" output="."/>
 			<key code="15" output="p"/>
@@ -162,12 +162,12 @@
 			<key code="3" output="U"/>
 			<key code="4" output="D"/>
 			<key code="5" output="I"/>
-			<key code="6" output=":"/>
+			<key code="6" output="&#x0022;"/>
 			<key code="7" output="Q"/>
 			<key code="8" output="J"/>
 			<key code="9" output="K"/>
 			<key code="11" output="X"/>
-			<key code="12" output="&#x0022;"/>
+			<key code="12" output=":"/>
 			<key code="13" output="&#x003C;"/>
 			<key code="14" output="&#x003E;"/>
 			<key code="15" output="P"/>
@@ -444,12 +444,12 @@
 			<key code="3" output="U"/>
 			<key code="4" output="D"/>
 			<key code="5" output="I"/>
-			<key code="6" output=";"/>
+			<key code="6" output="&#x0027;"/>
 			<key code="7" output="Q"/>
 			<key code="8" output="J"/>
 			<key code="9" output="K"/>
 			<key code="11" output="X"/>
-			<key code="12" output="&#x0027;"/>
+			<key code="12" output=";"/>
 			<key code="13" output=","/>
 			<key code="14" output="."/>
 			<key code="15" output="P"/>
@@ -486,6 +486,7 @@
 			<key code="46" output="M"/>
 			<key code="47" output="V"/>
 			<key code="48" output="&#x0009;"/>
+			<key code="49" output=""/>
 			<key code="50" output="`"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
@@ -693,6 +694,7 @@
 			<key code="46" output="M"/>
 			<key code="47" output="&#x003E;"/>
 			<key code="48" output="&#x0009;"/>
+			<key code="49" output=""/>
 			<key code="50" output="~"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
