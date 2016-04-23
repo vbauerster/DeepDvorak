@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-20 at 13:11 (GMT+5)-->
-<keyboard group="126" id="-14447" name="Deep Dvorak" maxout="1">
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-23 at 20:06 (GMT+5)-->
+<keyboard group="126" id="-18043" name="Deep Dvorak" maxout="1">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -674,7 +674,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="n"/>
 			<key code="38" output="h"/>
-			<key code="39" output="-"/>
+			<key code="39" output="/"/>
 			<key code="40" output="t"/>
 			<key code="41" output="s"/>
 			<key code="42" output="\"/>
