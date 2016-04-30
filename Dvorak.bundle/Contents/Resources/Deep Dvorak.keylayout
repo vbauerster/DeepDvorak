@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-30 at 11:34 (GMT+4:30)-->
-<keyboard group="126" id="-15077" name="Deep Dvorak" maxout="2">
+<!--Last edited by Ukelele version 3.0.3.70 on 2016-04-30 at 18:54 (GMT+4:30)-->
+<keyboard group="126" id="-26357" name="Deep Dvorak" maxout="3">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -272,7 +272,7 @@
 			<key code="4" output="0"/>
 			<key code="5" output="9"/>
 			<key code="6" output="&#x0027;"/>
-			<key code="7" output=""/>
+			<key code="7" output="q!"/>
 			<key code="8" output=""/>
 			<key code="9" output=""/>
 			<key code="11" output=""/>
@@ -286,7 +286,7 @@
 			<key code="19" output="}"/>
 			<key code="20" output="["/>
 			<key code="21" output="{"/>
-			<key code="22" output="="/>
+			<key code="22" action="= 1"/>
 			<key code="23" output="("/>
 			<key code="24" output="#"/>
 			<key code="25" output="+"/>
@@ -1299,6 +1299,10 @@
 			<when state="none" output="="/>
 			<when state="deep state" output="=="/>
 		</action>
+		<action id="= 1">
+			<when state="none" output="="/>
+			<when state="deep state" output="==="/>
+		</action>
 		<action id="a">
 			<when state="none" output="a"/>
 			<when state="deep state" output="`"/>
@@ -1317,11 +1321,11 @@
 		</action>
 		<action id="e">
 			<when state="none" output="e"/>
-			<when state="deep state" output="#"/>
+			<when state="deep state" output="&#x0026;"/>
 		</action>
 		<action id="f">
 			<when state="none" output="f"/>
-			<when state="deep state" output="\"/>
+			<when state="deep state" output="#"/>
 		</action>
 		<action id="g">
 			<when state="none" output="g"/>
@@ -1333,7 +1337,7 @@
 		</action>
 		<action id="i">
 			<when state="none" output="i"/>
-			<when state="deep state" output="&#x0026;"/>
+			<when state="deep state" output="\"/>
 		</action>
 		<action id="j">
 			<when state="none" output="j"/>
@@ -1357,7 +1361,7 @@
 		</action>
 		<action id="p">
 			<when state="none" output="p"/>
-			<when state="deep state" output="?"/>
+			<when state="deep state" output="|"/>
 		</action>
 		<action id="q">
 			<when state="none" output="q"/>
@@ -1389,7 +1393,7 @@
 		</action>
 		<action id="y">
 			<when state="none" output="y"/>
-			<when state="deep state" output="|"/>
+			<when state="deep state" output="?"/>
 		</action>
 	</actions>
 	<terminators>
