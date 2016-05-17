@@ -18,9 +18,17 @@ Instead it places common three shortcuts `x` `c` `v` to `;` `,` `.` position, wh
 
 ### Screenshots
 
-* Normal state
+* **Normal state**
 ![Normal state](screenshots/normal.png)
 
 * **SHIFT ⇧**
 ![Shift state](screenshots/shift.png)
 
+* **Caps lock**
+![Shift state](screenshots/caps.png)
+
+* **Command ⌘**
+![Command state](screenshots/cmd.png)
+
+* **Dead state**
+![Dead state](screenshots/dead.png)
