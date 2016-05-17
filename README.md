@@ -24,7 +24,7 @@ Instead it places common three shortcuts `x` `c` `v` to `;` `,` `.` position, wh
 * **SHIFT ⇧**
 ![Shift state](screenshots/shift.png)
 
-* **Caps lock**
+* **Caps lock ⇪**
 ![Shift state](screenshots/caps.png)
 
 * **Command ⌘**
