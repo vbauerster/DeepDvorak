@@ -2,7 +2,7 @@
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
 <!--Last edited by Ukelele version 3.0.3.70 on 2016-05-16 at 12:18 (GMT+4:30)-->
-<keyboard group="126" id="-26357" name="Deep Dvorak" maxout="3">
+<keyboard group="126" id="-26357" name="DeepDvorak-M" maxout="3">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
