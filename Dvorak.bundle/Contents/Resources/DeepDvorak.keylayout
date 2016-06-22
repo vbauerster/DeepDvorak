@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.3.70 on 2016-05-28 at 16:56 (GMT+4:30)-->
+<!--Last edited by Ukelele version 3.0.4.75 on 2016-06-17 at 09:24 (GMT+4:30)-->
 <keyboard group="126" id="-16791" name="DeepDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -1112,7 +1112,7 @@
 		</action>
 		<action id="i">
 			<when state="none" output="i"/>
-			<when state="deep state" output="\"/>
+			<when state="deep state" output="&#x0026;"/>
 		</action>
 		<action id="j">
 			<when state="none" output="j"/>
@@ -1156,7 +1156,7 @@
 		</action>
 		<action id="u">
 			<when state="none" output="u"/>
-			<when state="deep state" output="&#x0026;"/>
+			<when state="deep state" output="\"/>
 		</action>
 		<action id="v">
 			<when state="none" output="v"/>
