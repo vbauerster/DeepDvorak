@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.0.4.75 on 2016-06-17 at 09:24 (GMT+4:30)-->
-<keyboard group="126" id="-16791" name="DeepDvorak" maxout="2">
+<!--Last edited by Ukelele version 3.0.4.75 on 2016-07-06 at 13:38 (GMT+4:30)-->
+<keyboard group="126" id="-10321" name="DeepDvorak" maxout="3">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -59,7 +59,7 @@
 			<key code="7" action="q"/>
 			<key code="8" action="j"/>
 			<key code="9" action="k"/>
-			<key code="11" output="x"/>
+			<key code="11" action="x"/>
 			<key code="12" action=";"/>
 			<key code="13" action=","/>
 			<key code="14" action="."/>
@@ -68,15 +68,15 @@
 			<key code="17" action="y"/>
 			<key code="18" output="&#x0026;"/>
 			<key code="19" output="["/>
-			<key code="20" output="{"/>
+			<key code="20" action="{"/>
 			<key code="21" output="}"/>
 			<key code="22" action="="/>
-			<key code="23" output="("/>
+			<key code="23" action="("/>
 			<key code="24" output="#"/>
 			<key code="25" action="+"/>
 			<key code="26" action="*"/>
 			<key code="27" action="!"/>
-			<key code="28" output=")"/>
+			<key code="28" action=")"/>
 			<key code="29" output="]"/>
 			<key code="30" output="@"/>
 			<key code="31" action="r"/>
@@ -92,7 +92,7 @@
 			<key code="41" action="s"/>
 			<key code="42" output="\"/>
 			<key code="43" action="w"/>
-			<key code="44" output="z"/>
+			<key code="44" action="z"/>
 			<key code="45" action="b"/>
 			<key code="46" action="m"/>
 			<key code="47" action="v"/>
@@ -273,9 +273,9 @@
 			<key code="12" output=";"/>
 			<key code="13" output=","/>
 			<key code="14" output="."/>
-			<key code="15" output=""/>
+			<key code="15" output="₽"/>
 			<key code="16" output=""/>
-			<key code="17" output=""/>
+			<key code="17" output="¥"/>
 			<key code="18" output="&#x0026;"/>
 			<key code="19" output="["/>
 			<key code="20" output="{"/>
@@ -289,10 +289,10 @@
 			<key code="28" output=")"/>
 			<key code="29" output="]"/>
 			<key code="30" output="@"/>
-			<key code="31" output=""/>
+			<key code="31" output="®"/>
 			<key code="32" output=""/>
 			<key code="33" output="/"/>
-			<key code="34" output=""/>
+			<key code="34" output="©"/>
 			<key code="35" output=""/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="6"/>
@@ -308,7 +308,7 @@
 			<key code="47" output=""/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="$"/>
+			<key code="50" output="£"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -355,7 +355,7 @@
 			<key code="4" output="⁰"/>
 			<key code="5" output="⁹"/>
 			<key code="6" output="&#x0022;"/>
-			<key code="7" output=""/>
+			<key code="7" output="qa!"/>
 			<key code="8" output=""/>
 			<key code="9" output=""/>
 			<key code="11" output=""/>
@@ -366,9 +366,9 @@
 			<key code="16" output=""/>
 			<key code="17" output=""/>
 			<key code="18" output="&#x0026;"/>
-			<key code="19" output="}"/>
-			<key code="20" output="["/>
-			<key code="21" output="{"/>
+			<key code="19" output="["/>
+			<key code="20" output="{"/>
+			<key code="21" output="}"/>
 			<key code="22" output="="/>
 			<key code="23" output="("/>
 			<key code="24" output="#"/>
@@ -378,7 +378,7 @@
 			<key code="28" output=")"/>
 			<key code="29" output="]"/>
 			<key code="30" output="^"/>
-			<key code="31" output=""/>
+			<key code="31" output="™"/>
 			<key code="32" output=""/>
 			<key code="33" output="?"/>
 			<key code="34" output=""/>
@@ -397,7 +397,7 @@
 			<key code="47" output=""/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="$"/>
+			<key code="50" output="€"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -1050,6 +1050,14 @@
 			<when state="none" output="&#x0027;"/>
 			<when state="deep state" output="`"/>
 		</action>
+		<action id="(">
+			<when state="none" output="("/>
+			<when state="deep state" output="&#x003C;="/>
+		</action>
+		<action id=")">
+			<when state="none" output=")"/>
+			<when state="deep state" output="&#x003E;="/>
+		</action>
 		<action id="*">
 			<when state="none" output="*"/>
 			<when state="deep state" output="*="/>
@@ -1072,7 +1080,6 @@
 		</action>
 		<action id=";">
 			<when state="none" output=";"/>
-			<when state="deep state" output="~"/>
 		</action>
 		<action id="=">
 			<when state="none" output="="/>
@@ -1092,7 +1099,7 @@
 		</action>
 		<action id="d">
 			<when state="none" output="d"/>
-			<when state="deep state" output="!"/>
+			<when state="deep state" output="&#x0026;"/>
 		</action>
 		<action id="e">
 			<when state="none" output="e"/>
@@ -1112,15 +1119,15 @@
 		</action>
 		<action id="i">
 			<when state="none" output="i"/>
-			<when state="deep state" output="&#x0026;"/>
+			<when state="deep state" output="~"/>
 		</action>
 		<action id="j">
 			<when state="none" output="j"/>
-			<when state="deep state" output="&#x003C;="/>
+			<when state="deep state" output="L"/>
 		</action>
 		<action id="k">
 			<when state="none" output="k"/>
-			<when state="deep state" output="&#x003E;="/>
+			<when state="deep state" output="H"/>
 		</action>
 		<action id="m">
 			<when state="none" output="m"/>
@@ -1166,9 +1173,21 @@
 			<when state="none" output="w"/>
 			<when state="deep state" output="8"/>
 		</action>
+		<action id="x">
+			<when state="none" output="x"/>
+			<when state="deep state" output="00"/>
+		</action>
 		<action id="y">
 			<when state="none" output="y"/>
 			<when state="deep state" output="?"/>
+		</action>
+		<action id="z">
+			<when state="none" output="z"/>
+			<when state="deep state" output="ZZ"/>
+		</action>
+		<action id="{">
+			<when state="none" output="{"/>
+			<when state="deep state" output="№"/>
 		</action>
 	</actions>
 	<terminators>
