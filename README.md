@@ -28,7 +28,13 @@ Instead it places common three shortcuts `x` `c` `v` to `;` `,` `.` position, wh
 ![Shift state](screenshots/caps.png)
 
 * **Command ⌘**
-![Command state](screenshots/cmd.png)
+![Command state](screenshots/h-cmd.png)
+
+* **OPTION ⌥**
+![Option state](screenshots/alt.png)
+
+* **SHIFT+OPTION  (⇧+⌥)**
+![Shift+Option state](screenshots/alt-shift.png)
 
 * **Dead state**
 ![Dead state](screenshots/dead.png)
