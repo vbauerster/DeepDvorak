@@ -5,7 +5,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.dvorak</string>
 	<key>CFBundleName</key>
-	<string>Dvorak</string>
+	<string>DeepDvorak</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
 	<key>KLInfo_DeepDvorak</key>
