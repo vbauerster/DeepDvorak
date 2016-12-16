@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.2.0.143 on 2016-12-16 at 14:33 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.0.143 on 2016-12-16 at 14:40 (GMT+5)-->
 <keyboard group="126" id="-14130" name="DeepDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -98,7 +98,7 @@
 			<key code="47" action="v"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" action=" "/>
-			<key code="50" action="$"/>
+			<key code="50" output="$"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="55" output=""/>
@@ -1050,10 +1050,6 @@
 		<action id="!">
 			<when state="none" output="!"/>
 			<when state="deep state" output="!="/>
-		</action>
-		<action id="$">
-			<when state="none" output="$"/>
-			<when state="deep state" output="~/"/>
 		</action>
 		<action id="&#x0027;">
 			<when state="none" output="&#x0027;"/>
