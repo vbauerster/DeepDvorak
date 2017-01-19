@@ -3,7 +3,7 @@ Deep Dvorak keyboard layout for MacOS
 
 Deep Dvorak is modification of [Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/index.html).
 
-It resembles "Dvorak-Qwerty ⌘" layout from the standard MacOS package, but it doesn't substitute for qwerty layout while command key is pressed.
+It resembles "Dvorak-Qwerty ⌘" layout from the standard MacOS package, but it doesn't substitute each key to qwerty, when command key is pressed.
 Instead it places common three shortcuts <kbd>x</kbd> <kbd>c</kbd> <kbd>v</kbd> to <kbd>;</kbd> <kbd>,</kbd> <kbd>.</kbd> position, which is more easy to press with one left hand.
 
 ## Installation
