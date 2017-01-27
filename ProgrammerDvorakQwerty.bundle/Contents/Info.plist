@@ -5,13 +5,13 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.dvorak</string>
 	<key>CFBundleName</key>
-	<string>DeepDvorak</string>
+	<string>Programmer Dvorak - QWERTY</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
-	<key>KLInfo_DeepDvorak</key>
+	<key>KLInfo_ProgrammerDvorakQWERTY</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.dvorak.deepdvorak</string>
+		<string>org.sil.ukelele.keyboardlayout.dvorak.programmerdvorakqwerty</string>
 		<key>TISIntendedLanguage</key>
 		<string>en-US</string>
 	</dict>
