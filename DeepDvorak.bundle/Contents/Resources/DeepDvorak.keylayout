@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-28 at 13:25 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-28 at 14:03 (GMT+5)-->
 <keyboard group="126" id="-11010" name="DeepDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -50,7 +50,7 @@
 	<keyMapSet id="ANSI">
 		<keyMap index="0">
 			<key code="0" action="a"/>
-			<key code="1" action="o"/>
+			<key code="1" output="o"/>
 			<key code="2" action="e"/>
 			<key code="3" action="u"/>
 			<key code="4" action="d"/>
@@ -64,7 +64,7 @@
 			<key code="13" action=","/>
 			<key code="14" action="."/>
 			<key code="15" action="p"/>
-			<key code="16" action="f"/>
+			<key code="16" output="f"/>
 			<key code="17" action="y"/>
 			<key code="18" output="&#x0026;"/>
 			<key code="19" action="["/>
@@ -1153,7 +1153,7 @@
 		</action>
 		<action id="-">
 			<when state="none" output="-"/>
-			<when state="deep state" output="-="/>
+			<when state="deep state" output="_"/>
 		</action>
 		<action id=".">
 			<when state="none" output="."/>
@@ -1220,16 +1220,13 @@
 			<when state="deep state" output="3"/>
 		</action>
 		<action id="d">
-			<when state="none" output="d"/>
+			<when state="none" output="f"/>
+			<when state="ampersand" output="&#x0026;&#x0026;"/>
+			<when state="deep state" next="ampersand"/>
 		</action>
 		<action id="e">
 			<when state="none" output="e"/>
 			<when state="deep state" output="$"/>
-		</action>
-		<action id="f">
-			<when state="none" output="f"/>
-			<when state="ampersand" output="&#x0026;&#x0026;"/>
-			<when state="deep state" next="ampersand"/>
 		</action>
 		<action id="g">
 			<when state="none" output="g"/>
@@ -1257,10 +1254,6 @@
 		<action id="n">
 			<when state="none" output="n"/>
 			<when state="deep state" output="6"/>
-		</action>
-		<action id="o">
-			<when state="none" output="o"/>
-			<when state="deep state" output="_"/>
 		</action>
 		<action id="p">
 			<when state="none" output="p"/>
