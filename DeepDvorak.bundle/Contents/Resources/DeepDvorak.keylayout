@@ -1222,7 +1222,7 @@
 			<when state="deep state" output="3"/>
 		</action>
 		<action id="d">
-			<when state="none" output="f"/>
+			<when state="none" output="d"/>
 			<when state="ampersand" output="&#x0026;&#x0026;"/>
 			<when state="deep state" next="ampersand"/>
 		</action>
