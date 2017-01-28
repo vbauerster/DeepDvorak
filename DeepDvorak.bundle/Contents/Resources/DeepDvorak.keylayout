@@ -1,8 +1,8 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-28 at 12:19 (GMT+5)-->
-<keyboard group="126" id="-14130" name="DeepDvorak" maxout="2">
+<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-28 at 13:25 (GMT+5)-->
+<keyboard group="126" id="-11010" name="DeepDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -67,17 +67,17 @@
 			<key code="16" action="f"/>
 			<key code="17" action="y"/>
 			<key code="18" output="&#x0026;"/>
-			<key code="19" output="["/>
-			<key code="20" output="{"/>
-			<key code="21" output="}"/>
-			<key code="22" output="="/>
-			<key code="23" output="("/>
+			<key code="19" action="["/>
+			<key code="20" action="{"/>
+			<key code="21" action="}"/>
+			<key code="22" action="="/>
+			<key code="23" action="("/>
 			<key code="24" output="#"/>
-			<key code="25" output="+"/>
-			<key code="26" output="*"/>
-			<key code="27" output="!"/>
-			<key code="28" output=")"/>
-			<key code="29" output="]"/>
+			<key code="25" action="+"/>
+			<key code="26" action="*"/>
+			<key code="27" action="!"/>
+			<key code="28" action=")"/>
+			<key code="29" action="]"/>
 			<key code="30" output="@"/>
 			<key code="31" action="r"/>
 			<key code="32" action="g"/>
@@ -1046,16 +1046,106 @@
 			<when state="ampersand" output="&#x0026;&#x000A;"/>
 			<when state="bar" output="|&#x000A;"/>
 			<when state="deep state" output=",&#x000A;"/>
+			<when state="eight" output="8&#x000A;"/>
+			<when state="five" output="5&#x000A;"/>
+			<when state="four" output="4&#x000A;"/>
+			<when state="nine" output="9&#x000A;"/>
+			<when state="one" output="1&#x000A;"/>
+			<when state="seven" output="7&#x000A;"/>
+			<when state="six" output="6&#x000A;"/>
+			<when state="three" output="3&#x000A;"/>
+			<when state="two" output="2&#x000A;"/>
+			<when state="zero" output="0&#x000A;"/>
 		</action>
 		<action id=" ">
 			<when state="none" output=" "/>
 			<when state="ampersand" output="&#x0026; "/>
 			<when state="bar" output="| "/>
 			<when state="deep state" output=", "/>
+			<when state="eight" output="8 "/>
+			<when state="five" output="5 "/>
+			<when state="four" output="4 "/>
+			<when state="nine" output="9 "/>
+			<when state="one" output="1 "/>
+			<when state="seven" output="7 "/>
+			<when state="six" output="6 "/>
+			<when state="three" output="3 "/>
+			<when state="two" output="2 "/>
+			<when state="zero" output="0 "/>
+		</action>
+		<action id="!">
+			<when state="none" output="!"/>
+			<when state="deep state" next="eight"/>
+			<when state="eight" output="88"/>
+			<when state="five" output="58"/>
+			<when state="four" output="48"/>
+			<when state="nine" output="98"/>
+			<when state="one" output="18"/>
+			<when state="seven" output="78"/>
+			<when state="six" output="68"/>
+			<when state="three" output="38"/>
+			<when state="two" output="28"/>
+			<when state="zero" output="08"/>
 		</action>
 		<action id="&#x0027;">
 			<when state="none" output="&#x0027;"/>
 			<when state="deep state" output="`"/>
+		</action>
+		<action id="(">
+			<when state="none" output="("/>
+			<when state="deep state" next="one"/>
+			<when state="eight" output="81"/>
+			<when state="five" output="51"/>
+			<when state="four" output="41"/>
+			<when state="nine" output="91"/>
+			<when state="one" output="11"/>
+			<when state="seven" output="71"/>
+			<when state="six" output="61"/>
+			<when state="three" output="31"/>
+			<when state="two" output="21"/>
+			<when state="zero" output="01"/>
+		</action>
+		<action id=")">
+			<when state="none" output=")"/>
+			<when state="deep state" next="two"/>
+			<when state="eight" output="82"/>
+			<when state="five" output="52"/>
+			<when state="four" output="42"/>
+			<when state="nine" output="92"/>
+			<when state="one" output="12"/>
+			<when state="seven" output="72"/>
+			<when state="six" output="62"/>
+			<when state="three" output="32"/>
+			<when state="two" output="22"/>
+			<when state="zero" output="02"/>
+		</action>
+		<action id="*">
+			<when state="none" output="*"/>
+			<when state="deep state" next="zero"/>
+			<when state="eight" output="80"/>
+			<when state="five" output="50"/>
+			<when state="four" output="40"/>
+			<when state="nine" output="90"/>
+			<when state="one" output="10"/>
+			<when state="seven" output="70"/>
+			<when state="six" output="60"/>
+			<when state="three" output="30"/>
+			<when state="two" output="20"/>
+			<when state="zero" output="00"/>
+		</action>
+		<action id="+">
+			<when state="none" output="+"/>
+			<when state="deep state" next="four"/>
+			<when state="eight" output="84"/>
+			<when state="five" output="54"/>
+			<when state="four" output="44"/>
+			<when state="nine" output="94"/>
+			<when state="one" output="14"/>
+			<when state="seven" output="74"/>
+			<when state="six" output="64"/>
+			<when state="three" output="34"/>
+			<when state="two" output="24"/>
+			<when state="zero" output="04"/>
 		</action>
 		<action id=",">
 			<when state="none" next="deep state"/>
@@ -1076,6 +1166,48 @@
 			<when state="none" output=";"/>
 			<when state="deep state" output=":"/>
 		</action>
+		<action id="=">
+			<when state="none" output="="/>
+			<when state="deep state" next="nine"/>
+			<when state="eight" output="89"/>
+			<when state="five" output="59"/>
+			<when state="four" output="49"/>
+			<when state="nine" output="99"/>
+			<when state="one" output="19"/>
+			<when state="seven" output="79"/>
+			<when state="six" output="69"/>
+			<when state="three" output="39"/>
+			<when state="two" output="29"/>
+			<when state="zero" output="09"/>
+		</action>
+		<action id="[">
+			<when state="none" output="["/>
+			<when state="deep state" next="seven"/>
+			<when state="eight" output="87"/>
+			<when state="five" output="57"/>
+			<when state="four" output="47"/>
+			<when state="nine" output="97"/>
+			<when state="one" output="17"/>
+			<when state="seven" output="77"/>
+			<when state="six" output="67"/>
+			<when state="three" output="37"/>
+			<when state="two" output="27"/>
+			<when state="zero" output="07"/>
+		</action>
+		<action id="]">
+			<when state="none" output="]"/>
+			<when state="deep state" next="six"/>
+			<when state="eight" output="86"/>
+			<when state="five" output="56"/>
+			<when state="four" output="46"/>
+			<when state="nine" output="96"/>
+			<when state="one" output="16"/>
+			<when state="seven" output="76"/>
+			<when state="six" output="66"/>
+			<when state="three" output="36"/>
+			<when state="two" output="26"/>
+			<when state="zero" output="06"/>
+		</action>
 		<action id="a">
 			<when state="none" output="a"/>
 			<when state="deep state" output="^"/>
@@ -1089,7 +1221,6 @@
 		</action>
 		<action id="d">
 			<when state="none" output="d"/>
-			<when state="deep state" output="&#x0022;"/>
 		</action>
 		<action id="e">
 			<when state="none" output="e"/>
@@ -1106,7 +1237,7 @@
 		</action>
 		<action id="h">
 			<when state="none" output="h"/>
-			<when state="deep state" output="2"/>
+			<when state="deep state" output="&#x0022;"/>
 		</action>
 		<action id="i">
 			<when state="none" output="i"/>
@@ -1121,7 +1252,7 @@
 		</action>
 		<action id="m">
 			<when state="none" output="m"/>
-			<when state="deep state" output="0"/>
+			<when state="deep state" output="&#x0027;"/>
 		</action>
 		<action id="n">
 			<when state="none" output="n"/>
@@ -1175,10 +1306,48 @@
 			<when state="none" output="z"/>
 			<when state="deep state" output="ZZ"/>
 		</action>
+		<action id="{">
+			<when state="none" output="{"/>
+			<when state="deep state" next="five"/>
+			<when state="eight" output="85"/>
+			<when state="five" output="55"/>
+			<when state="four" output="45"/>
+			<when state="nine" output="95"/>
+			<when state="one" output="15"/>
+			<when state="seven" output="75"/>
+			<when state="six" output="65"/>
+			<when state="three" output="35"/>
+			<when state="two" output="25"/>
+			<when state="zero" output="05"/>
+		</action>
+		<action id="}">
+			<when state="none" output="}"/>
+			<when state="deep state" next="three"/>
+			<when state="eight" output="83"/>
+			<when state="five" output="53"/>
+			<when state="four" output="43"/>
+			<when state="nine" output="93"/>
+			<when state="one" output="13"/>
+			<when state="seven" output="73"/>
+			<when state="six" output="63"/>
+			<when state="three" output="33"/>
+			<when state="two" output="23"/>
+			<when state="zero" output="03"/>
+		</action>
 	</actions>
 	<terminators>
 		<when state="ampersand" output="&#x0026;"/>
 		<when state="bar" output="|"/>
 		<when state="deep state" output=","/>
+		<when state="eight" output="8"/>
+		<when state="five" output="5"/>
+		<when state="four" output="4"/>
+		<when state="nine" output="9"/>
+		<when state="one" output="1"/>
+		<when state="seven" output="7"/>
+		<when state="six" output="6"/>
+		<when state="three" output="3"/>
+		<when state="two" output="2"/>
+		<when state="zero" output="0"/>
 	</terminators>
 </keyboard>
