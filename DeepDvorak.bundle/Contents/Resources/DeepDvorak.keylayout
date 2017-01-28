@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-28 at 14:03 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.1.161 on 2017-01-28 at 14:08 (GMT+5)-->
 <keyboard group="126" id="-11010" name="DeepDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -63,7 +63,7 @@
 			<key code="12" action=";"/>
 			<key code="13" action=","/>
 			<key code="14" action="."/>
-			<key code="15" action="p"/>
+			<key code="15" output="p"/>
 			<key code="16" output="f"/>
 			<key code="17" action="y"/>
 			<key code="18" output="&#x0026;"/>
@@ -1214,6 +1214,8 @@
 		</action>
 		<action id="b">
 			<when state="none" output="b"/>
+			<when state="bar" output="||"/>
+			<when state="deep state" next="bar"/>
 		</action>
 		<action id="c">
 			<when state="none" output="c"/>
@@ -1255,11 +1257,6 @@
 			<when state="none" output="n"/>
 			<when state="deep state" output="6"/>
 		</action>
-		<action id="p">
-			<when state="none" output="p"/>
-			<when state="bar" output="||"/>
-			<when state="deep state" next="bar"/>
-		</action>
 		<action id="q">
 			<when state="none" output="q"/>
 			<when state="deep state" output="@"/>
@@ -1293,7 +1290,6 @@
 		</action>
 		<action id="y">
 			<when state="none" output="y"/>
-			<when state="deep state" output="?"/>
 		</action>
 		<action id="z">
 			<when state="none" output="z"/>
