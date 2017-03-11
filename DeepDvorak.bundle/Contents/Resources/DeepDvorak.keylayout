@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-02-16 at 16:13 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-11 at 16:00 (GMT+5)-->
 <keyboard group="126" id="-11010" name="DeepDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -452,7 +452,7 @@
 			<key code="11" output="X"/>
 			<key code="12" output=";"/>
 			<key code="13" output=","/>
-			<key code="14" output="."/>
+			<key code="14" output=" "/>
 			<key code="15" output="P"/>
 			<key code="16" output="F"/>
 			<key code="17" output="Y"/>
@@ -487,7 +487,7 @@
 			<key code="46" output="M"/>
 			<key code="47" output="V"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=" "/>
+			<key code="49" output="."/>
 			<key code="50" output="$"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
