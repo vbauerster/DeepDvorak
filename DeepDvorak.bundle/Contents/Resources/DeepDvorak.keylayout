@@ -1,7 +1,7 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!--Created by Ukelele version 3.0.3.70 on 2016-04-06 at 07:24 (GMT+3)-->
-<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-11 at 16:00 (GMT+5)-->
+<!--Last edited by Ukelele version 3.2.2.166 on 2017-03-13 at 22:04 (GMT+5)-->
 <keyboard group="126" id="-11010" name="DeepDvorak" maxout="2">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
@@ -477,7 +477,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="N"/>
 			<key code="38" output="H"/>
-			<key code="39" output="_"/>
+			<key code="39" output="-"/>
 			<key code="40" output="T"/>
 			<key code="41" output="S"/>
 			<key code="42" output="\"/>
@@ -564,17 +564,17 @@
 			<key code="16" output="f"/>
 			<key code="17" output="y"/>
 			<key code="18" output="%"/>
-			<key code="19" output="["/>
-			<key code="20" output="{"/>
-			<key code="21" output="}"/>
-			<key code="22" output="="/>
-			<key code="23" output="("/>
+			<key code="19" output="7"/>
+			<key code="20" output="5"/>
+			<key code="21" output="3"/>
+			<key code="22" output="9"/>
+			<key code="23" output="1"/>
 			<key code="24" output="`"/>
-			<key code="25" output="+"/>
-			<key code="26" output="*"/>
-			<key code="27" output="!"/>
-			<key code="28" output=")"/>
-			<key code="29" output="]"/>
+			<key code="25" output="4"/>
+			<key code="26" output="0"/>
+			<key code="27" output="8"/>
+			<key code="28" output="2"/>
+			<key code="29" output="6"/>
 			<key code="30" output="^"/>
 			<key code="31" output="r"/>
 			<key code="32" output="g"/>
@@ -584,7 +584,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="n"/>
 			<key code="38" output="h"/>
-			<key code="39" output="-"/>
+			<key code="39" output="_"/>
 			<key code="40" output="t"/>
 			<key code="41" output="s"/>
 			<key code="42" output="|"/>
@@ -594,7 +594,7 @@
 			<key code="46" output="m"/>
 			<key code="47" output="v"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=" "/>
+			<key code="49" output=","/>
 			<key code="50" output="~"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
